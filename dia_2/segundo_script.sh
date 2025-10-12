@@ -17,7 +17,7 @@ fi #termina a estrutura condicional
 #pode ser de force (forçar)
 #pode ser uma função para desativas o globbing (caracteres curingas como * e ?)
 
-rm -f criacao-arquivo-teste.txt #vai remover sem pedir permissão
+rm -f C:/Users/Pichau/Desktop/estudos-shell-script/dia_1/criacao-arquivo-teste.txt #vai remover sem pedir permissão
 echo $? #vai ajudar a saber se o comando foi executado com sucesso ou não
 #0 = sucesso
 #1 = erro
